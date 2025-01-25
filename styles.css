@@ -18,3 +18,11 @@
   color: #FEE715;
   border-radius: 3px;
 }
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: orange;
+}

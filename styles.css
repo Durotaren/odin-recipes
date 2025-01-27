@@ -1,37 +1,47 @@
-.round {
-  border-radius: 3px;
-  background-color: #101820;
-  font-size: 27px;
-}
-
-.color {
-  color: #FEE715;
-}
-
-.txtimg {
-  display: inline-block;
+.item.item-1{
+  display: block;
   text-align: center;
-}
-
-.text {
   background-color: #101820;
   color: #FEE715;
-  border-radius: 50px;
-  text-align: center;
+  width: 400px;
+  height: 80px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 150px;
 }
 
-a{
-  text-decoration: none;
+img{
+  display: block;
+  margin: auto;
+  border-radius: 300px;
+  margin-bottom: 30px;
 }
 
-a:hover{
-  color: orange;
+.container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button{
+  height: 100px;
+  width: 300px;
+  border-radius: 150px;
+  background-color: #101820;
+  color: #FEE715;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 html{
   background-color: rgba(255, 255, 0, 0.5);
 }
 
-img{
-  border-radius: 300px;
+a{
+  text-decoration: none;
+  color: #FEE715;
+}
+
+a:hover{
+  color: orange;
 }
